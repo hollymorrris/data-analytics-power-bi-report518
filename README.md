@@ -39,7 +39,13 @@ Cleaned and organised data in table:
   * Deleted any clearly unused columns. 
   * Renamed columns to ensure consistency. 
 
-## Creating the Data Model 
+## Creating the Data Model
+### Creating a Date Table
+
+### Building the Star Schema Data Model
+### Creating a Measures Table
+### Creating Key Measures
+### Creating Date and Geography Hierarchies
 
 ## Building the Customer Details Page
 
