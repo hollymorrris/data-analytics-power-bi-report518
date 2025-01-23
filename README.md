@@ -43,9 +43,14 @@ Cleaned and organised data in table:
 ### Creating a Date Table
 
 ### Building the Star Schema Data Model
+<img width="761" alt="Screenshot 2025-01-23 at 21 07 17" src="https://github.com/user-attachments/assets/242b4d3d-c6ec-42be-8199-428c5e091b14" />
+
 ### Creating a Measures Table
+
 ### Creating Key Measures
+
 ### Creating Date and Geography Hierarchies
+
 
 ## Building the Customer Details Page
 
