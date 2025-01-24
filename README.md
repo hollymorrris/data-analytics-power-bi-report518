@@ -76,10 +76,12 @@ Created a measures table for measures to ensure ease of navigation and organisat
 
 ### Date and Geography Hierarchies
 Date Hierarchy:
+
 <img width="155" alt="Screenshot 2025-01-24 at 16 15 32" src="https://github.com/user-attachments/assets/2b9759bf-2bec-4530-945e-10d1f01255cd" />
 
 
 Geography Hierarchy:
+
 <img width="171" alt="Screenshot 2025-01-24 at 16 14 59" src="https://github.com/user-attachments/assets/38e7f28e-73e8-4b95-af68-08a287335ccf" />
 
 
