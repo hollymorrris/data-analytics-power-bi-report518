@@ -40,16 +40,47 @@ Cleaned and organised data in table:
   * Renamed columns to ensure consistency. 
 
 ## Creating the Data Model
-### Creating a Date Table
+### Dates Table
+A continous date table which covers the entire time period of the data is required for Power BI's time intelligence functions. 
 
-### Building the Star Schema Data Model
+Created a date table running from the start of the year containing the earliest Order Date to the end of the year containing the latest Shipping Date:
+
+ Dates = CALENDAR(DATE(YEAR(MIN(Orders[Order Date])), 1, 1), DATE(YEAR(MAX(Orders[Shipping Date])), 12, 31))
+
+Create the following columns for Dates table using DAX expressions:
+
+ * Day of Week
+ * Month Number
+ * Month Name
+ * Quarter
+ * Year
+ * Start of Year
+ * Start of Quarter
+ * Start of Month
+ * Start of Week
+   
+### Star Schema Data Model
 <img width="761" alt="Screenshot 2025-01-23 at 21 07 17" src="https://github.com/user-attachments/assets/242b4d3d-c6ec-42be-8199-428c5e091b14" />
 
-### Creating a Measures Table
+### Measures Table
+Created a measures table for measures to ensure ease of navigation and organisation of data model. 
 
-### Creating Key Measures
+### Key Measures
+ * Total Orders = COUNT(Orders[Order Date])
+ * Total Revenue = SUMX(Orders, Orders[Product Quantity] * RELATED(Products[Sale Price]))
+ * Total Profit = SUMX(Orders, Orders[Product Quantity] * (RELATED(Products[Sale Price]) - RELATED(Products[Cost Price])))
+ * Total Customers = DISTINCTCOUNT(Orders[User ID])
+ * Total Quantity = SUM(Orders[Product Quantity])
+ * Profit YTD = TOTALYTD([Total Profit], Orders[Order Date])
+ * Revenue YTD = TOTALYTD([Total Revenue], Orders[Order Date])
 
-### Creating Date and Geography Hierarchies
+### Date and Geography Hierarchies
+Date Hierarchy:
+<img width="155" alt="Screenshot 2025-01-24 at 16 15 32" src="https://github.com/user-attachments/assets/2b9759bf-2bec-4530-945e-10d1f01255cd" />
+
+
+Geography Hierarchy:
+<img width="171" alt="Screenshot 2025-01-24 at 16 14 59" src="https://github.com/user-attachments/assets/38e7f28e-73e8-4b95-af68-08a287335ccf" />
 
 
 ## Building the Customer Details Page
