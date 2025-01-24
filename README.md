@@ -66,21 +66,21 @@ Create the following columns for Dates table using DAX expressions:
 Created a measures table for measures to ensure ease of navigation and organisation of data model. 
 
 ### Key Measures
- * Total Orders = COUNT(Orders[Order Date])
- * Total Revenue = SUMX(Orders, Orders[Product Quantity] * RELATED(Products[Sale Price]))
- * Total Profit = SUMX(Orders, Orders[Product Quantity] * (RELATED(Products[Sale Price]) - RELATED(Products[Cost Price])))
- * Total Customers = DISTINCTCOUNT(Orders[User ID])
- * Total Quantity = SUM(Orders[Product Quantity])
- * Profit YTD = TOTALYTD([Total Profit], Orders[Order Date])
- * Revenue YTD = TOTALYTD([Total Revenue], Orders[Order Date])
+ * **Total Orders** = COUNT(Orders[Order Date])
+ * **Total Revenue** = SUMX(Orders, Orders[Product Quantity] * RELATED(Products[Sale Price]))
+ * **Total Profit** = SUMX(Orders, Orders[Product Quantity] * (RELATED(Products[Sale Price]) - RELATED(Products[Cost Price])))
+ * **Total Customers** = DISTINCTCOUNT(Orders[User ID])
+ * **Total Quantity** = SUM(Orders[Product Quantity])
+ * **Profit YTD** = TOTALYTD([Total Profit], Orders[Order Date])
+ * **Revenue YTD** = TOTALYTD([Total Revenue], Orders[Order Date])
 
 ### Date and Geography Hierarchies
-Date Hierarchy:
+Created a Date Hierarchy:
 
 <img width="155" alt="Screenshot 2025-01-24 at 16 15 32" src="https://github.com/user-attachments/assets/2b9759bf-2bec-4530-945e-10d1f01255cd" />
 
 
-Geography Hierarchy:
+Created a Geography Hierarchy:
 
 <img width="171" alt="Screenshot 2025-01-24 at 16 14 59" src="https://github.com/user-attachments/assets/38e7f28e-73e8-4b95-af68-08a287335ccf" />
 
