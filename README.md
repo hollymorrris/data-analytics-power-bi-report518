@@ -86,10 +86,27 @@ Created a Geography Hierarchy:
 
 
 ## Building the Customer Details Page
+Created a report page focused on customer level analysis. This includes the following visuals:
+ * Card visuals for total distinct customers and revenue per customer.
+ * Donut charts showing number of customers by country and number of customers by product category.
+ * A line chart of customers by year, quarter and month.
+ * A table showing the top 20 customers, including the revenue per customer and number of orders per customer.
+ * A set of three card visuals for the name, revenue and order for the top customer by revenue.
+
+(add screenshot)
 
 ## Creating an Executive Summary Page 
+Created a report page for the high-level executive summary, providing an overview of the company's performance as a whole. This contains the following visuals:
+ * Card visuals showing total reveneue, total profit and total orders.
+ * A line chart showing revenue against time.
+ * Donut charts for revenue by country and store type.
+ * A bar chart of orders by product category.
+ * KPI visuals for quarterly revenue, quarterly orders and quarterly profit. Required creation of measures for previous quarter revenue, target revenue, previous quarter orders, target orders, previous quarter profit and target profit.
+
+(add screenshot)
 
 ## Creating a Product Detail Page 
+
 
 ## Creating a Stores Map Page 
 
