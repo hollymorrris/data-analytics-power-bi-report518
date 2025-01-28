@@ -106,7 +106,14 @@ Created a report page for the high-level executive summary, providing an overvie
 (add screenshot)
 
 ## Creating a Product Detail Page 
+Created a product detail page which provides an in-depth look at which products are performing well, with the option of filtering by by product and/or region. The following visuals were created:
+ * Gauge visuals to show how the selected category's current revenue, profit and number of orders are performing compared to the quarterly target (based on 10% quarter on quarter growth).
+ * An area chart showing relative revenue performance of each category over time.
+ * A table for the top 10 products by revenue in the selected context.
+ * A scatter graph of quantity of items ordered against profit per item for products in the current context.
+ * Card visuals to show which filters are currently selected for product category and country.
 
+(add screenshots)
 
 ## Creating a Stores Map Page 
 
