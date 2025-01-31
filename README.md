@@ -117,6 +117,7 @@ Created a product detail page which provides an in-depth look at which products 
 
 ## Creating a Stores Map Page 
 
+
 ## Cross-Filtering and Navigation 
 
 ## Creating Metrics for Users Outside the Company Using SQL
