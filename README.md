@@ -115,6 +115,8 @@ Created a product detail page which provides an in-depth look at which products 
 
 <img width="790" alt="Screenshot 2025-02-04 at 18 37 56" src="https://github.com/user-attachments/assets/6fc24e65-8fb5-4c9b-80e2-bd0769e42187" />
 
+Used the bookmarks feature to create a pop-out toolbar which can be accessed from the navigation bar on the left-hand side of the page to allow users to filter by product category and store country.
+
 <img width="154" alt="Screenshot 2025-02-04 at 18 38 56" src="https://github.com/user-attachments/assets/09b724c0-11de-4337-ad77-29b34d1ee829" />
 
 ## Creating a Stores Map Page 
@@ -125,9 +127,15 @@ Created a stores map page, stores drillthrough page and stores tooltip page to a
  * Value field, as the target will change as we move through the year.
  * A Card visual showing the currently selected store.
 
+Stores Map Page
+
 <img width="791" alt="Screenshot 2025-02-04 at 18 39 42" src="https://github.com/user-attachments/assets/cad1bd80-bb2b-4601-b303-dae68832b5a0" />
 
+Stores Drillthrough Page
+
 <img width="790" alt="Screenshot 2025-02-04 at 18 40 06" src="https://github.com/user-attachments/assets/9dff9aa4-5914-4b46-9797-2c6f4fe20291" />
+
+Stores Tooltip Page 
 
 <img width="227" alt="Screenshot 2025-02-04 at 18 40 30" src="https://github.com/user-attachments/assets/4a78070c-9221-4dc2-8edd-10d40465a612" />
 
