@@ -116,8 +116,33 @@ Created a product detail page which provides an in-depth look at which products 
 (add screenshots)
 
 ## Creating a Stores Map Page 
+Created a stores map page, stores drillthrough page and stores tooltip page to allow viewers to easily track profit and revenue targets of stores by location. The stores drillthrough page contains these visuals:
+ * A table showing the top 5 products based on Total Orders, with columns: Description, Profit YTD, Total Orders, Total Revenue.
+ * A column chart showing Total Orders by product category for the store.
+ * Gauges for Profit YTD against a profit target of 20% year-on-year growth vs. the same period in the previous year.
+ * Value field, as the target will change as we move through the year.
+ * A Card visual showing the currently selected store.
 
 
 ## Cross-Filtering and Navigation 
+Fixed the cross-filtering between certain visuals by editing interactions:
+ * Product Category bar chart and Top 10 Products table to not filter the card visuals or KPIs on the excecutive summary page.
+ * Top 20 Customers table to not filter any of the other visuals on customer details page. 
+ * Total Customers by Product Category Donut Chart to not affect the Customers line graph on customer details page.
+ * Total Customers by Country donut chart to cross-filter Total Customers by Product Category Donut Chart on customer details page.
+ * Orders vs. Profitability scatter graph to not affect any other visuals on product details page.
+ * Top 10 Products table to not affect any other visuals on product details page.
+
+Added navigation buttons for each of the report pages to enable users to easily and directly move between different report pages. 
+
 
 ## Creating Metrics for Users Outside the Company Using SQL
+Connected to SQL database stored in Azure. Answered the following questions with SQL queries:
+1. How many staff are there in all of the UK stores?
+2. Which month in 2022 has had the highest revenue?
+3. Which German store type had the highest revenue for 2022?
+4. Create a view where the rows are the store types and the columns are the total sales, percentage of total sales and the count of orders
+5. Which product category generated the most profit for the "Wiltshire, UK" region in 2021?
+
+Uploaded the corresponding number exported results and the SQL queries themselves. 
+
