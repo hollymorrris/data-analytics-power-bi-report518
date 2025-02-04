@@ -93,7 +93,7 @@ Created a report page focused on customer level analysis. This includes the foll
  * A table showing the top 20 customers, including the revenue per customer and number of orders per customer.
  * A set of three card visuals for the name, revenue and order for the top customer by revenue.
 
-(add screenshot)
+<img width="791" alt="Screenshot 2025-02-04 at 18 37 14" src="https://github.com/user-attachments/assets/a8b1c3a1-2870-43bf-9ff8-e2366d611dbf" />
 
 ## Creating an Executive Summary Page 
 Created a report page for the high-level executive summary, providing an overview of the company's performance as a whole. This contains the following visuals:
@@ -103,7 +103,7 @@ Created a report page for the high-level executive summary, providing an overvie
  * A bar chart of orders by product category.
  * KPI visuals for quarterly revenue, quarterly orders and quarterly profit. Required creation of measures for previous quarter revenue, target revenue, previous quarter orders, target orders, previous quarter profit and target profit.
 
-(add screenshot)
+<img width="791" alt="Screenshot 2025-02-04 at 18 36 32" src="https://github.com/user-attachments/assets/4fda7c35-509a-4caa-a3a6-cc5921d2545e" />
 
 ## Creating a Product Detail Page 
 Created a product detail page which provides an in-depth look at which products are performing well, with the option of filtering by by product and/or region. The following visuals were created:
@@ -113,7 +113,9 @@ Created a product detail page which provides an in-depth look at which products 
  * A scatter graph of quantity of items ordered against profit per item for products in the current context.
  * Card visuals to show which filters are currently selected for product category and country.
 
-(add screenshots)
+<img width="790" alt="Screenshot 2025-02-04 at 18 37 56" src="https://github.com/user-attachments/assets/6fc24e65-8fb5-4c9b-80e2-bd0769e42187" />
+
+<img width="154" alt="Screenshot 2025-02-04 at 18 38 56" src="https://github.com/user-attachments/assets/09b724c0-11de-4337-ad77-29b34d1ee829" />
 
 ## Creating a Stores Map Page 
 Created a stores map page, stores drillthrough page and stores tooltip page to allow viewers to easily track profit and revenue targets of stores by location. The stores drillthrough page contains these visuals:
@@ -122,6 +124,12 @@ Created a stores map page, stores drillthrough page and stores tooltip page to a
  * Gauges for Profit YTD against a profit target of 20% year-on-year growth vs. the same period in the previous year.
  * Value field, as the target will change as we move through the year.
  * A Card visual showing the currently selected store.
+
+<img width="791" alt="Screenshot 2025-02-04 at 18 39 42" src="https://github.com/user-attachments/assets/cad1bd80-bb2b-4601-b303-dae68832b5a0" />
+
+<img width="790" alt="Screenshot 2025-02-04 at 18 40 06" src="https://github.com/user-attachments/assets/9dff9aa4-5914-4b46-9797-2c6f4fe20291" />
+
+<img width="227" alt="Screenshot 2025-02-04 at 18 40 30" src="https://github.com/user-attachments/assets/4a78070c-9221-4dc2-8edd-10d40465a612" />
 
 
 ## Cross-Filtering and Navigation 
@@ -135,6 +143,14 @@ Fixed the cross-filtering between certain visuals by editing interactions:
 
 Added navigation buttons for each of the report pages to enable users to easily and directly move between different report pages. 
 
+<img width="28" alt="Screenshot 2025-02-04 at 18 41 23" src="https://github.com/user-attachments/assets/7906e3ac-301d-484a-9f66-084efe8c47ea" /> Executive Summary Page
+
+<img width="27" alt="Screenshot 2025-02-04 at 18 41 47" src="https://github.com/user-attachments/assets/c9795717-8a62-4126-816e-f65a311285ab" /> Customer Details Page
+
+<img width="28" alt="Screenshot 2025-02-04 at 18 42 03" src="https://github.com/user-attachments/assets/3f62a2a8-c4e1-4236-a4e8-49a657feed2a" /> Products Details Page
+
+<img width="28" alt="Screenshot 2025-02-04 at 18 42 20" src="https://github.com/user-attachments/assets/106c3892-c7d3-48f9-af8a-fdf0bb62df54" /> Stores Map Page 
+
 
 ## Creating Metrics for Users Outside the Company Using SQL
 Connected to SQL database stored in Azure. Answered the following questions with SQL queries:
@@ -144,5 +160,5 @@ Connected to SQL database stored in Azure. Answered the following questions with
 4. Create a view where the rows are the store types and the columns are the total sales, percentage of total sales and the count of orders
 5. Which product category generated the most profit for the "Wiltshire, UK" region in 2021?
 
-Uploaded the corresponding number exported results and the SQL queries themselves. 
+Uploaded the corresponding files for exported results and the SQL queries themselves. 
 
